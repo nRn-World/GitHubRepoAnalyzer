@@ -18,8 +18,6 @@ GitHubRepoAnalyzer is a Manifest V3 Chrome extension that reads a GitHub reposit
 
 Watch on YouTube: <https://www.youtube.com/watch?v=zJa-2qXfEHY>
 
-Offline copy: [Screenshots/demo.mp4](Screenshots/demo.mp4)
-
 | Start | Analysis | Deep analysis |
 |---|---|---|
 | ![Start view](Screenshots/1.png) | ![Analysis view](Screenshots/2.png) | ![Deep analysis](Screenshots/3.png) |
