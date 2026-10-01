@@ -9,12 +9,16 @@
 GitHubRepoAnalyzer is a Manifest V3 Chrome extension that reads a GitHub repository page and gives you a quick, human-readable summary of what the project actually *is*: what it's for, what its README documents, and its key facts. Everything is extracted and translated **on your machine**. No AI services, no external APIs, no network calls, no telemetry.
 
 <p align="center">
-  <a href="Screenshots/demo.mp4"><img src="Screenshots/2.png" width="380" alt="GitHubRepoAnalyzer analyzing a repository"></a>
+  <a href="https://www.youtube.com/watch?v=zJa-2qXfEHY"><img src="Screenshots/2.png" width="380" alt="GitHubRepoAnalyzer demo video"></a>
 </p>
 
 ## Demo
 
-[Watch the demo video](Screenshots/demo.mp4)
+Watch the demo on YouTube:
+
+https://www.youtube.com/watch?v=zJa-2qXfEHY
+
+Offline copy: [Screenshots/demo.mp4](Screenshots/demo.mp4)
 
 | Start | Analysis | Deep analysis |
 |---|---|---|
