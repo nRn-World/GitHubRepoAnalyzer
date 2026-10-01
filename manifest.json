@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "GitHubRepoAnalyzer",
+  "version": "1.0.0",
+  "description": "Instantly understand a GitHub repository from its own words: fully local, no AI, no external APIs.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Summarize this GitHub repository",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage"
+  ]
+}

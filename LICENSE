@@ -1,0 +1,101 @@
+GitHubRepoAnalyzer Software License Agreement
+Copyright (c) 2026 nRnWorld. All rights reserved.
+
+IMPORTANT: READ THIS AGREEMENT CAREFULLY BEFORE DOWNLOADING, INSTALLING,
+COPYING OR USING THIS SOFTWARE. BY USING THE SOFTWARE YOU AGREE TO BE BOUND
+BY THE TERMS OF THIS LICENSE. IF YOU DO NOT AGREE, DO NOT USE THE SOFTWARE.
+
+1. DEFINITIONS
+
+   "Software"        means the GitHubRepoAnalyzer browser extension, its
+                     source code, its name, its logo, its documentation and
+                     all associated files distributed with it.
+   "Licensee"        means any person or organization that downloads,
+                     copies or uses the Software.
+   "Derivative Work" means a modified version of the Software, or any work
+                     that contains or is based on any part of the Software's
+                     source code.
+
+2. GRANT OF LICENSE (EDUCATIONAL USE)
+
+   nRnWorld grants the Licensee a free, non-exclusive, non-transferable
+   license to download, install, use, study, copy and modify the Software
+   for EDUCATIONAL AND PERSONAL, NON-COMMERCIAL PURPOSES ONLY, including:
+
+   a) using the extension in its unmodified form;
+   b) reading and studying the source code for learning purposes;
+   c) modifying the source code and running a modified copy for private,
+      educational use;
+   d) sharing the Software or a Derivative Work with others for
+      educational purposes, free of charge and under the terms of this
+      agreement.
+
+3. PROHIBITED USES
+
+   The Licensee may NOT, under any circumstances:
+
+   a) sell, rent, lease, sublicense or otherwise monetize the Software or
+      a Derivative Work, in whole or in part, directly or indirectly,
+      including bundling it with paid products, services, advertisements,
+      donations or paid distribution channels;
+   b) use the Software or a Derivative Work for any commercial purpose of
+      any kind without a separate, prior written license agreement from
+      nRnWorld;
+   c) use the name "GitHubRepoAnalyzer" (or any confusingly similar name),
+      the Software's logo, icon or visual identity for any other product,
+      project or distribution.
+
+4. ATTRIBUTION REQUIREMENT FOR DERIVATIVE WORKS
+
+   Any Derivative Work that the Licensee publishes or shares, in whole or
+   in part, MUST:
+
+   a) state clearly and visibly in its license agreement, readme file and
+      about-page that it is based on GitHubRepoAnalyzer by nRnWorld, in a
+      form equivalent to: "Based on GitHubRepoAnalyzer by nRnWorld";
+   b) include a link to the original project:
+      https://github.com/nRn-World/GitHubRepoAnalyzer
+   c) be licensed to its recipients under this same agreement, free of
+      charge, for educational purposes only;
+   d) NOT use the original name or logo as defined in section 3c.
+
+5. OWNERSHIP
+
+   The Software is licensed, not sold. nRnWorld retains all right, title
+   and interest in and to the Software, including all intellectual
+   property rights. No ownership rights are transferred by this license.
+
+6. NO WARRANTY
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+   NON-INFRINGEMENT. THE LICENSOR IS NOT LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   SOFTWARE OR ITS USE.
+
+7. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL nRnWorld BE LIABLE FOR ANY DIRECT, INDIRECT,
+   INCIDENTAL, SPECIAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES (INCLUDING,
+   BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS
+   OF USE, DATA OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+   ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+   TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE
+   USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+   DAMAGE.
+
+8. TERMINATION
+
+   This license terminates automatically if the Licensee breaches any of
+   its terms. Upon termination the Licensee must stop using and
+   distributing the Software and delete all copies in their possession.
+
+9. COMMERCIAL LICENSING
+
+   Any commercial use, monetization, redistribution for profit or use of
+   the original name/logo requires a separate written license agreement
+   from nRnWorld. Contact: https://github.com/nRn-World
+
+---
+Copyright (c) 2026 nRnWorld. All rights reserved.
