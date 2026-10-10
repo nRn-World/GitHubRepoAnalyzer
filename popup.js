@@ -107,7 +107,12 @@ async function analyzeTab(tabId) {
     // first click returns exactly what a later click would.
     func: async () => {
       const api = window.__ghRepoSummarizer;
-      await api.waitReady();
+      if (!api) {
+        throw new Error("Content script initialization failed.");
+      }
+      if (typeof api.waitReady === "function") {
+        await api.waitReady();
+      }
       return api.analyze();
     },
   });

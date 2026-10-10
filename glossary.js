@@ -602,7 +602,7 @@
 
       if (phraseHit) {
         out.push(applyCase(phraseHit.first, phraseHit.text) + phraseHit.trailing);
-        hits += 1;
+        hits += phraseHit.span;
         i += phraseHit.span * 2 - 1;
         continue;
       }
@@ -624,7 +624,7 @@
     // (keep the space before them), conjunctions (و/أو) swallow both sides.
     if (locale === "ar") {
       result = result
-        .replace(/(^|\s)(و|أو)\s+/g, "$2")
+        .replace(/(^|\s)(و|أو)\s+/g, "$1$2")
         .replace(/(لـ|في|من|على|إلى|مع|بـ|كـ)\s+/g, "$1")
         .replace(/\s{2,}/g, " ");
     }
