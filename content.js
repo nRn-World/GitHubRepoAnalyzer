@@ -78,9 +78,11 @@
         } else if (child.nodeType !== Node.ELEMENT_NODE) {
           continue;
         } else if (CODE_TAGS.has(child.tagName)) {
+          if (buffer && !/\s$/.test(buffer)) buffer += " ";
           flush();
           const codeText = clean(child.textContent);
           if (codeText) parts.push({ text: codeText, code: true });
+          buffer += " ";
         } else if (child.tagName === "BR") {
           buffer += " ";
         } else if (child.tagName === "IMG" || child.tagName === "SVG") {
@@ -104,11 +106,16 @@
     const out = [];
     let total = 0;
     for (const part of parts) {
-      if (total + part.text.length > max) break;
+      if (total + part.text.length > max) {
+        if (out.length === 0) {
+          out.push({ text: truncate(part.text, max), code: part.code });
+        }
+        break;
+      }
       out.push(part);
       total += part.text.length;
     }
-    if (out.length < parts.length && out.length) {
+    if (out.length < parts.length && out.length && !out[out.length - 1].text.endsWith("…")) {
       const last = out[out.length - 1];
       out[out.length - 1] = { text: last.text + "…", code: last.code };
     }
@@ -210,12 +217,12 @@
     ];
     const confirmed = landmarks.some((sel) => document.querySelector(sel));
 
-    const second = (segments[1] || "").toLowerCase();
+    const subroute = (segments[2] || "").toLowerCase();
     const repoSubroutes = new Set([
       "tree", "blob", "commits", "issues", "pulls", "actions", "projects",
       "wiki", "pulse", "graphs", "network", "branches", "releases", "tags",
     ]);
-    return confirmed || repoSubroutes.has(second);
+    return confirmed || repoSubroutes.has(subroute);
   };
 
   /* ------------------------------------------------------------------ *
